@@ -1,0 +1,39 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: red;
+    border: 2px solid greenyellow;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid purple;
+}
+
+main{
+    width: 100%;
+}
+
+section{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid darkolivegreen;
+    margin: 0 0 0 1%;
+}
+
+.container > div {
+    margin: 0 auto;
+}
+
+.rotate{
+    transform: rotate(20deg);
+}
+
+.image{
+    background-image: url("http://i.imgur.com/Q3cUg29.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
